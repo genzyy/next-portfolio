@@ -122,15 +122,15 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
+          Music,{' '}
           <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
+            Gaming
           </Link>
-          , Playing Drums,{' '}
+          , Coding,{' '}
           <Link href="https://500px.com/p/craftzdog" target="_blank">
-            Photography
+            Westside Rap
           </Link>
-          , Leica, Machine Learning
+          , Linux Ricing
         </Paragraph>
       </Section>
 
