@@ -34,6 +34,7 @@ const Home = () => (
         borderRadius="lg"
         mb={6}
         p={3}
+        borderRadius={10}
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >

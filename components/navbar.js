@@ -71,10 +71,10 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/works" path={path}>
+          <LinkItem href="/works" path={path} style={{ borderRadius: '10px' }}>
             Works
           </LinkItem>
-          <LinkItem href="/posts" path={path}>
+          <LinkItem href="/posts" path={path} style={{ borderRadius: '10px' }}>
             Posts
           </LinkItem>
           <LinkItem
@@ -83,7 +83,7 @@ const Navbar = props => {
             path={path}
             display="inline-flex"
             alignItems="center"
-            style={{ gap: 4 }}
+            style={{ gap: 4, borderRadius: '10px' }}
             pl={2}
           >
             <IoLogoGithub />
