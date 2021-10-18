@@ -22,29 +22,32 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
-            A Markdown note-taking app with 100+ plugins, cross-platform and
-            encrypted data sync support
+          <WorkGridItem
+            id="anime-cli"
+            title="Anime-CLI"
+            thumbnail={thumbInkdrop}
+          >
+            A terminal tool to search for any anime and get all the information
+            about it in the terminal itself.
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem
-            id="walknote"
-            title="walknote"
+            id="deno-search"
+            title="Deno-Search"
             thumbnail={thumbWalknote}
           >
-            Music recommendation app for iOS
+            A search cli tool to search files in a directory and moify them.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="fourpainters"
-            title="The four painters"
+            id="suckless-builds"
+            title="My suckless builds"
             thumbnail={thumbFourPainters}
           >
-            A video work generated with deep learning, imitating famous four
-            painters like Van Gogh
+            My suckless dwm, dwmblocks and dmenu builds.
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
