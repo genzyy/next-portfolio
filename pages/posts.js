@@ -3,13 +3,12 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
-import thumbFishWorkflow from '../public/images/contents/youtube-fish-workflow.jpg'
 import thumbMyDeskSetup from '../public/images/contents/youtube-my-desk-setup.jpg'
 import thumb500PaidUsers from '../public/images/contents/blog-500-paid-users.jpg'
 import thumbFinancialGoal from '../public/images/contents/blog-financial-goal.png'
 import thumbHowToPriceYourself from '../public/images/contents/blog-how-to-price-yourself.jpg'
 import thumb50xFaster from '../public/images/contents/youtube-50x-faster.jpg'
-import fishWorkflow from '../public/images/fishshell.webp'
+import fishWorkflow from '../public/images/terminal.png'
 
 const Posts = () => {
   return (
@@ -39,12 +38,12 @@ const Posts = () => {
             <GridItem
               title="What I learned after working in 2 failed startups"
               thumbnail={thumb500PaidUsers}
-              href="https://blog.inkdrop.app/how-ive-attracted-the-first-500-paid-users-for-my-saas-that-costs-5-mo-7a5b94b8e820"
+              href=""
             />
             <GridItem
               title="I stopped comparing myself from others"
               thumbnail={thumbFinancialGoal}
-              href="https://blog.inkdrop.app/i-stopped-setting-a-financial-goal-for-my-saas-a92c3db65506"
+              href=""
             />
           </SimpleGrid>
         </Section>
@@ -54,12 +53,12 @@ const Posts = () => {
             <GridItem
               title="How to setup vim as a daily code editor"
               thumbnail={thumbHowToPriceYourself}
-              href="https://blog.inkdrop.app/how-to-price-yourself-as-a-freelance-developer-3453dfd59d91"
+              href=""
             />
             <GridItem
               title="Converting React app to React Native App"
               thumbnail={thumb50xFaster}
-              href="https://www.youtube.com/watch?v=vj723NlrIQc"
+              href=""
             />
           </SimpleGrid>
         </Section>
