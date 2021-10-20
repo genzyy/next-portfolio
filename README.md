@@ -1,6 +1,6 @@
 # Rishit's Homepage
 
-[https://www.craftz.dog/](https://www.craftz.dog/)
+[https://www.genzyy.dev](https://portfolio-sepia-two-40.vercel.app/)
 
 ## Stack
 
