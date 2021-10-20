@@ -154,13 +154,13 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://discord.gg/QfsG5Kj" target="_blank">
+            <Link href="https://discordapp.com/users/653947805684989973" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoDiscord} />}
               >
-                Discord
+                genzyy#5853
               </Button>
             </Link>
           </ListItem>
