@@ -119,7 +119,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Music, Gaming , Coding, Westside Rap , Linux Ricing
+          Music, Gaming , Coding, Westside Rap , Linux
         </Paragraph>
       </Section>
 
