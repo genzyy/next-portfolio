@@ -22,7 +22,7 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="anime-cli" title="Anime-CLI" thumbnail={npmPackage}>
+          <WorkGridItem id="animecli" title="Anime-CLI" thumbnail={npmPackage}>
             A terminal tool to search for any anime and get all the information
             about it in the terminal itself.
           </WorkGridItem>
