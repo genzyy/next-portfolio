@@ -21,8 +21,8 @@ const DenoSearch = () => {
       <span>Linux/UNIX base systems</span>
      </ListItem>
     </List>
-    <WorkImage src="/images/works/animecli.PNG" alt="" />
-    <WorkImage src="/images/works/animecli1.PNG" alt="" />
+    <WorkImage src="/images/works/denoSearch.PNG" alt="" />
+    <WorkImage src="/images/works/denoSearch1.PNG" alt="" />
    </Container>
   </Layout>
  )
