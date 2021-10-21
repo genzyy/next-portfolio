@@ -29,7 +29,7 @@ const Works = () => (
         </Section>
         <Section>
           <WorkGridItem
-            id="deno-search"
+            id="denoSearch"
             title="Deno-Search"
             thumbnail={denoSearch}
           >
@@ -39,7 +39,7 @@ const Works = () => (
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="suckless-builds"
+            id="sucklessBuilds"
             title="My suckless builds"
             thumbnail={dwmThumbnail}
           >
