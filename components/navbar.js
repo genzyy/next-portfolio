@@ -77,6 +77,9 @@ const Navbar = props => {
           <LinkItem href="/posts" path={path} style={{ borderRadius: '10px' }}>
             Posts
           </LinkItem>
+          <LinkItem href="/experience" path={path} style={{ borderRadius: '10px' }}>
+            Experience
+          </LinkItem>
           <LinkItem
             _target="_blank"
             href="https://github.com/genzyy/next-portfolio"
