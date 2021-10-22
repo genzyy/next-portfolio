@@ -9,7 +9,7 @@ const Caarsy = () => {
             <Container>
                 <Title>Caarsy: Software Developer Intern <Badge>Aug 2021-Oct 2021</Badge></Title>
                 <P>
-                    Caarsy is India's first inventory management software selling company for second hand dealerships.
+                    Caarsy is India{"'"}s first inventory management software selling company for second hand dealerships.
                     <br />
                     My Work here consisted of creating Rest APIs for CRUD operations on dealerships vehicle with image and legal documents uploading and managing user sessions.
                     And ReactJS frontend to make it User friendly from scratch.
