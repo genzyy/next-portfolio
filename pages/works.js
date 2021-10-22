@@ -77,7 +77,7 @@ const Works = () => (
           <WorkGridItem
             id="dogehouse"
             thumbnail={dogehouseThumbnail}
-            title="dogehouse"
+            title="benawad/dogehouse"
           >
             Taking voice conversations to the moon.
           </WorkGridItem>
@@ -94,22 +94,22 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
-          <WorkGridItem id="reactTypescript" thumbnail={rtsThumbnail} title="reactTypescript">
-            React In Typescript
+          <WorkGridItem id="reactTypescript" thumbnail={rtsThumbnail} title="React-Typescript">
+            How to use Typescript for react development.
           </WorkGridItem>
         </Section>
         <Section delay={0.5}>
           <WorkGridItem
             id="tsconfig"
             thumbnail={rtsThumbnail}
-            title ="tsconfig"
+            title ="Perfect TSConfig"
           >
-            Perfect TSConfig.
+            Perfect TSConfig for all use cases.
           </WorkGridItem>
         </Section>
         <Section delay={0.6}>
           <WorkGridItem id="gojoke" thumbnail={gojokeThumbnail} title="Gojoke">
-            GoJoke
+            Get a joke whenever you open your terminal app.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
