@@ -16,10 +16,13 @@ const Gojoke = () => {
                     <ListItem>
                         <Meta>Stack</Meta>
                         <span>GoLang, API</span>
+                        </ListItem>
+                    <ListItem>
                         <Meta>Platform</Meta>
                         <span>macOS, Linux, and other UNIX based systems</span>
                     </ListItem>
                 </List>
+                <WorkImage src="/images/works/golang.png" alt="gojoke" />
             </Container>
         </Layout>
     )

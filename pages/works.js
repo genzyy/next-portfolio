@@ -12,6 +12,8 @@ import dwmThumbnail from '../public/images/dwm.jpg'
 import denoSearch from '../public/images/deno.jpg'
 import rxfetchThumbnail from '../public/images/rxfetch.png'
 import dogehouseThumbnail from '../public/images/dogehouse.png'
+import gojokeThumbnail from '../public/images/works/golang.png'
+import rtsThumbnail from '../public/images/works/rts.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -92,21 +94,21 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
-          <WorkGridItem id="reactTypescript" thumbnail={thumbPichu2} title="reactTypescript">
+          <WorkGridItem id="reactTypescript" thumbnail={rtsThumbnail} title="reactTypescript">
             React In Typescript
           </WorkGridItem>
         </Section>
         <Section delay={0.5}>
           <WorkGridItem
             id="tsconfig"
-            thumbnail={thumbFreeDBTagger}
+            thumbnail={rtsThumbnail}
             title ="tsconfig"
           >
             Perfect TSConfig.
           </WorkGridItem>
         </Section>
         <Section delay={0.6}>
-          <WorkGridItem id="gojoke" thumbnail={thumbAmembo} title="Gojoke">
+          <WorkGridItem id="gojoke" thumbnail={gojokeThumbnail} title="Gojoke">
             GoJoke
           </WorkGridItem>
         </Section>
