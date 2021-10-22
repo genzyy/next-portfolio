@@ -92,23 +92,22 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
-          <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Pichu*Pichu">
-            Twitter client app for iPhone Safari
+          <WorkGridItem id="reactTypescript" thumbnail={thumbPichu2} title="reactTypescript">
+            React In Typescript
           </WorkGridItem>
         </Section>
         <Section delay={0.5}>
           <WorkGridItem
-            id="freedbtagger"
+            id="tsconfig"
             thumbnail={thumbFreeDBTagger}
-            title="freeDBTagger"
+            title ="tsconfig"
           >
-            Automatic audio file tagging tool using FreeDB for Windows
+            Perfect TSConfig.
           </WorkGridItem>
         </Section>
         <Section delay={0.6}>
-          <WorkGridItem id="amembo" thumbnail={thumbAmembo} title="Amembo">
-            P2P private file sharing tool with MSN Messenger integration for
-            Windows
+          <WorkGridItem id="gojoke" thumbnail={thumbAmembo} title="Gojoke">
+            GoJoke
           </WorkGridItem>
         </Section>
       </SimpleGrid>
