@@ -1,6 +1,6 @@
 # Rishit's Homepage
 
-[https://www.genzyy.dev](https://portfolio-sepia-two-40.vercel.app/)
+[https://portfolio-genzyy.vercel.app/](https://portfolio-genzyy.vercel.app/)
 
 ## Stack
 
