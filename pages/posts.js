@@ -9,6 +9,7 @@ import thumbFinancialGoal from '../public/images/contents/blog-financial-goal.pn
 import thumbHowToPriceYourself from '../public/images/contents/blog-how-to-price-yourself.jpg'
 import thumb50xFaster from '../public/images/contents/youtube-50x-faster.jpg'
 import fishWorkflow from '../public/images/terminal.png'
+import neovimThumbnail from '../public/images/neovim.png'
 
 const Posts = () => {
   return (
@@ -26,43 +27,13 @@ const Posts = () => {
               href="https://dev.to/rishitpandey/my-linux-fish-shell-workflow-28lk"
             />
             <GridItem
-              title="My Linux Setup (2021)"
-              thumbnail={thumbMyDeskSetup}
-              href="https://www.youtube.com/watch?v=1OFDMwDlnOE"
+              title="My Neovim Setup"
+              thumbnail={neovimThumbnail}
+              href="https://dev.to/rishitpandey/setting-up-neovim-like-vscode-j8h"
             />
           </SimpleGrid>
         </Section>
-
-        <Section delay={0.3}>
-          <SimpleGrid columns={[1, 2, 2]} gap={6}>
-            <GridItem
-              title="What I learned after working in 2 failed startups"
-              thumbnail={thumb500PaidUsers}
-              href=""
-            />
-            <GridItem
-              title="I stopped comparing myself from others"
-              thumbnail={thumbFinancialGoal}
-              href=""
-            />
-          </SimpleGrid>
-        </Section>
-
-        <Section delay={0.5}>
-          <SimpleGrid columns={[1, 2, 2]} gap={6}>
-            <GridItem
-              title="How to setup vim as a daily code editor"
-              thumbnail={thumbHowToPriceYourself}
-              href=""
-            />
-            <GridItem
-              title="Converting React app to React Native App"
-              thumbnail={thumb50xFaster}
-              href=""
-            />
-          </SimpleGrid>
-        </Section>
-      </Container>
+     </Container>
     </Layout>
   )
 }
