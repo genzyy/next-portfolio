@@ -19,7 +19,8 @@ import Section from '../components/section'
 import {
   IoLogoGithub,
   IoLogoDiscord,
-  IoLogoNpm
+  IoLogoNpm,
+  IoLogoLinkedin
 } from 'react-icons/io5'
 
 const Home = () => (
@@ -91,14 +92,15 @@ const Home = () => (
           Born in India.
         </BioSection>
         <BioSection>
+          <BioYear>2021</BioYear>
+          Worked at two startups
+        </BioSection> 
+        <BioSection>
           <BioYear>2022</BioYear>
           Completed the Bachelor&apos;s Program from SRM Institute of Science
           and Technology.
         </BioSection>
-        <BioSection>
-          <BioYear>2021</BioYear>
-          Worked at two startups
-        </BioSection>
+        
         {/*
         <BioSection>
           <BioYear>2012 to present</BioYear>
@@ -157,6 +159,18 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
+          <ListItem>
+            <Link href="https://www.linkedin.com/in/rishit-pandey/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoLogoLinkedin} />}
+              >
+               Rishit Pandey
+              </Button>
+            </Link>
+          </ListItem>
+
         </List>
 
         <Box align="center" my={4}>
