@@ -11,6 +11,7 @@ import rxfetchThumbnail from '../public/images/rxfetch.png'
 import dogehouseThumbnail from '../public/images/dogehouse.png'
 import gojokeThumbnail from '../public/images/works/golang.png'
 import rtsThumbnail from '../public/images/works/rts.png'
+import nextJSThumbnail from '../public/images/works/nextjs.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -20,6 +21,15 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <WorkGridItem
+            id="nextJSGuide"
+            title="NextJS Guide"
+            thumbnail={nextJSThumbnail}
+          >
+            Learn NextJS and Typescript from scratch!
+          </WorkGridItem>
+        </Section>
         <Section>
           <WorkGridItem id="animecli" title="Anime-CLI" thumbnail={npmPackage}>
             A terminal tool to search for any anime and get all the information
@@ -46,8 +56,12 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="specialicious" thumbnail={thumbMenkiki} title="Specialicious">
-           A website to search for favourite recipes and save them for later!
+          <WorkGridItem
+            id="specialicious"
+            thumbnail={thumbMenkiki}
+            title="Specialicious"
+          >
+            A website to search for favourite recipes and save them for later!
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -91,7 +105,11 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
-          <WorkGridItem id="reactTypescript" thumbnail={rtsThumbnail} title="React-Typescript">
+          <WorkGridItem
+            id="reactTypescript"
+            thumbnail={rtsThumbnail}
+            title="React-Typescript"
+          >
             How to use Typescript for react development.
           </WorkGridItem>
         </Section>
@@ -99,7 +117,7 @@ const Works = () => (
           <WorkGridItem
             id="tsconfig"
             thumbnail={rtsThumbnail}
-            title ="Perfect TSConfig"
+            title="Perfect TSConfig"
           >
             Perfect TSConfig for all use cases.
           </WorkGridItem>

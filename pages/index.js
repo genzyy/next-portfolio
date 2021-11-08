@@ -94,28 +94,19 @@ const Home = () => (
         <BioSection>
           <BioYear>2021</BioYear>
           Worked at two startups
-        </BioSection> 
+        </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
-          Completed the Bachelor&apos;s Program from SRM Institute of Science
+          Completing the Bachelor&apos;s Program from SRM Institute of Science
           and Technology.
         </BioSection>
-        
-        {/*
-        <BioSection>
-          <BioYear>2012 to present</BioYear>
-          Works as a freelance
-        </BioSection>{' '}
-        */}
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
-        <Paragraph>
-          Music, Gaming , Coding, Westside Rap , Linux
-        </Paragraph>
+        <Paragraph>Music, Gaming , Coding, Westside Rap , Linux</Paragraph>
       </Section>
 
       <Section delay={0.3}>
@@ -149,7 +140,10 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://discordapp.com/users/653947805684989973" target="_blank">
+            <Link
+              href="https://discordapp.com/users/653947805684989973"
+              target="_blank"
+            >
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -160,17 +154,19 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.linkedin.com/in/rishit-pandey/" target="_blank">
+            <Link
+              href="https://www.linkedin.com/in/rishit-pandey/"
+              target="_blank"
+            >
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoLinkedin} />}
               >
-               Rishit Pandey
+                Rishit Pandey
               </Button>
             </Link>
           </ListItem>
-
         </List>
 
         <Box align="center" my={4}>
