@@ -2,7 +2,6 @@ import { Container, Badge, List, ListItem } from '@chakra-ui/react'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
-
 const nextJSGuide = () => {
   return (
     <Layout title="NextJS-Guide(WIP)">
@@ -33,6 +32,7 @@ const nextJSGuide = () => {
             </span>
           </ListItem>
         </List>
+        <WorkImage src="/images/works/nextjs.png" alt="NextJSThumbnail"/>
       </Container>
     </Layout>
   )
