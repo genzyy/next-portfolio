@@ -19,11 +19,11 @@ const Animecli = () => {
           list.
         </P>
         <List ml={4} my={4}>
-          <ListItem>
+          <ListItem style={{ margin: '7px 0px' }}>
             <Meta>Platform</Meta>
             <span>Windows/macOS/Linux</span>
           </ListItem>
-          <ListItem>
+          <ListItem style={{ margin: '7px 0px' }}>
             <Meta>Stack</Meta>
             <span>Javascript, NodeJS, Commandline</span>
           </ListItem>
