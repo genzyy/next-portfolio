@@ -35,7 +35,7 @@ const Gojoke = () => {
           }}
         >
           <Button colorScheme="teal" leftIcon={<IoLogoGithub />} size="sm">
-            <a href="https://github.com/genzyy/gojoke" target="_blank">
+            <a href="https://github.com/genzyy/gojoke" target="blank">
               Visit Repository
             </a>
           </Button>
