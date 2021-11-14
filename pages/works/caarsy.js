@@ -27,6 +27,10 @@ const Caarsy = () => {
           <br />
           The app is available as a webapp, desktop app supporting major
           operating systems and app for mobile devices.
+          <br /> <br /> <u>Note:</u> The company stopped its operations because
+          we didn't get any funds or investors to run our company. We worked
+          hard on our project and was the best among our competitors but our
+          business model was not good so we need to work on that.
         </P>
         <List ml={4} my={4}>
           <ListItem style={{ margin: '7px 0px' }}>
