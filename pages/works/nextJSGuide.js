@@ -20,19 +20,32 @@ const nextJSGuide = () => {
           typescript together.
         </P>
         <List ml={4} my={4}>
-          <ListItem>
+          <ListItem style={{ margin: '7px 0px' }}>
             <Meta>Stack</Meta>
             <span>Typescript, NextJS, NPM</span>
           </ListItem>
-          <ListItem>
+          <ListItem style={{ margin: '7px 0px' }}>
             <Meta>Platform</Meta>
             <span>
               The guide is in markdown so it can be viewed in any browser
               supported operating system.
             </span>
           </ListItem>
+          <div
+            style={{
+              display: 'flex',
+              justifyContent: 'space-around',
+              margin: '10px 0px'
+            }}
+          >
+            <Button colorScheme="teal" size="sm" leftIcon={<IoLogoGithub />}>
+              <a href="https://github.com/genzyy/NextJS-guide" target="blank">
+                Visit Repository
+              </a>
+            </Button>
+          </div>
         </List>
-        <WorkImage src="/images/works/nextjs.png" alt="NextJSThumbnail"/>
+        <WorkImage src="/images/works/nextjs.png" alt="NextJSThumbnail" />
       </Container>
     </Layout>
   )
