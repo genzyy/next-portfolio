@@ -72,7 +72,7 @@ const Home = () => (
           has worked in two startups starting from knowing how a company is
           funded to building the product and selling it. His top skill is that
           he can learn anything quickly and while learning, he can apply it to
-          the projects and building real solutions.
+          the projects and building real world solutions.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="https://www.github.com/genzyy">
