@@ -67,12 +67,13 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Rishit is a linux enthusiast who is currently a Full Stack Developer
-          and is learning software development and system languages as well. He
-          has worked in two startups starting from knowing how a company is
-          funded to building the product and selling it. His top skill is that
-          he can learn anything quickly and while learning, he can apply it to
-          the projects and building real world solutions.
+          Rishit is a linux enthusiast who is currently a Software Engineer and
+          is learning software development and system languages as well. He has
+          worked in two startups starting from knowing how a company is funded
+          to building the product and selling it. And is currently focusing on
+          DSA and contributing to open source projects. His top skill is that he
+          can learn anything quickly and while learning, he can apply it to the
+          projects and building real world solutions.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="https://www.github.com/genzyy">
