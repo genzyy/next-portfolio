@@ -19,7 +19,13 @@ const LogoBox = styled.span`
 const Logo = () => {
   return (
     <Link href="/">
-      <a>
+      <a
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center'
+        }}
+      >
         <LogoBox>
           {/*<Image src={footPrintImg} width={20} height={20} alt="logo" />*/}
           <Text
