@@ -32,6 +32,7 @@ const Home = () => (
         borderRadius={10}
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+        style={{ fontFamily: 'Karla' }}
       >
         Hello, I&apos;m a Software Developer from India!
       </Box>
@@ -41,7 +42,9 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Rishit Pandey
           </Heading>
-          <p>Software Developer (Chad Linux User)</p>
+          <p style={{ fontFamily: 'Karla' }}>
+            Software Developer (Chad Linux User)
+          </p>
         </Box>
         <Box
           flexShrink={0}
@@ -99,7 +102,11 @@ const Home = () => (
         <BioSection>
           <BioYear>2022</BioYear>
           Completing the Bachelor&apos;s Program from SRM Institute of Science
-          and Technology.
+          and Technology
+        </BioSection>
+        <BioSection>
+          <BioYear>2022</BioYear>
+          Working in Predli, as a SDE
         </BioSection>
       </Section>
 

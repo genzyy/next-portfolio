@@ -8,7 +8,7 @@ const Predli = () => {
     <Layout title="Predli">
       <Container>
         <Title>
-          Predli: Full Stack Engineer<Badge>Dec 2021-</Badge>
+          Predli: Full Stack Engineer<Badge>Dec 2021-Present</Badge>
         </Title>
         <P>
           Predli is a global decentralized firm at the forefront of emerging

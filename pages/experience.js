@@ -6,6 +6,7 @@ import { WorkGridItem } from '../components/grid-item'
 import scouttTechThumbnail from '../public/images/experience/scouttTech.png'
 import caarsyThumbnail from '../public/images/experience/caarsy.png'
 import predliThumbnail from '../public/images/experience/predli.png'
+import masterExchangeThumbnail from '../public/images/experience/masterexchange.png'
 
 const Experience = () => {
   return (
@@ -41,7 +42,16 @@ const Experience = () => {
               title="Predli"
               thumbnail={predliThumbnail}
             >
-              Delivering services to startups/companies!
+              AI Strategy Experts
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem
+              id="masterexchange"
+              title="MasterExchange"
+              thumbnail={masterExchangeThumbnail}
+            >
+              Own the music you love
             </WorkGridItem>
           </Section>
         </SimpleGrid>
