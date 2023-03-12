@@ -97,16 +97,19 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          Worked at two startups
+          Full Stack Dev, Caarsy and Scoutt
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
-          Completing the Bachelor&apos;s Program from SRM Institute of Science
-          and Technology
+          Graduated from SRMIST
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
-          Working in Predli, as a SDE
+          SDE, Predli
+        </BioSection>
+        <BioSection>
+          <BioYear>2022</BioYear>
+          SDE, MasterExchange
         </BioSection>
       </Section>
 
